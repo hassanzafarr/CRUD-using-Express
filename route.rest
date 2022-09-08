@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers
+
+#####
+
+GET http://localhost:3000/subscribers/6318ee8b4bd57fddaeac6978f
+
+###
+POST http://localhost:3000/subscribers
+Content-Type : application/json
+
+{
+    "name" : "Zain",
+    "subscribedToChannel": "Youtube"
+}
+
+###
+DELETE http://localhost:3000/subscribers/6318ee8b4bd57fdaeac6978f
+
+###
+PATCH http://localhost:3000/subscribers/63191098a4a8ebaa8d45ec09
+Content-Type : application/json
+
+{
+    "name": "Jk"
+}
